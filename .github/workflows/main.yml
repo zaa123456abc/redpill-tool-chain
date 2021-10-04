@@ -30,3 +30,8 @@ jobs:
 
       - name: Create dsm image
         run: ./redpill_tool_chain.sh auto apollolake-7.0.1-42218
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: dsm918
+          path: ./images
