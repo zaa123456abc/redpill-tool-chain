@@ -9,9 +9,9 @@
   "synoinfo": {
     "maxdisks": "24",
     "maxlanport": "4",
-    "usbportcfg": "0x0",
+    "usbportcfg": "0x30000",
     "esataportcfg": "0x0",
-    "internalportcfg": "0xffffff"
+    "internalportcfg": "0xffff"
   },
   "ramdisk_copy": {}
 }
